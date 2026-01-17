@@ -20,8 +20,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_hw_left
+    shield: corne_left
     cmake-args: -DSHIELD_ROOT=$GITHUB_WORKSPACE
   - board: nice_nano_v2
-    shield: corne_hw_right
+    shield: corne_right
     cmake-args: -DSHIELD_ROOT=$GITHUB_WORKSPACE
